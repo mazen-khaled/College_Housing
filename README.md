@@ -1,5 +1,9 @@
 # Lectures Housing - QR Code Attendance System
 
+<div align="center">
+  <img src="images/Picture1.png" alt="Logo" width="100" />
+</div>
+
 ## Overview
 The **Lectures Housing** project is designed to provide a convenient and efficient solution for professors at universities to take attendance for students using QR code technology. This system aims to streamline the attendance process, enhance classroom management, and allow professors to focus more on delivering quality education.
 
@@ -27,21 +31,48 @@ Our goal is to develop a user-friendly application that enables professors to ef
   - Future feature: Absence percentage calculation.
 
 ## Screenshots
+### Login Page and Signup Page
+<div align="center">
+  <table style="border: 0">
+    <tr>
+      <td align="center">
+        <img src="images/Picture2.png" alt="Login Page" width="300" />
+        <br />
+        <strong>Login Page</strong>
+      </td>
+      <td align="center">
+        <img src="images/Picture3.png" alt="Signup Page" width="300" />
+        <br />
+        <strong>Signup Page</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### Login Page
-![Login Page](images/login_page.png)
-
-### Signup Page
-![Signup Page](images/signup_page.png)
-
-### Floor Selection
-![Floor Selection](images/floor_selection.png)
-
-### Profile Page
-![Profile Page](images/profile_page.png)
+### Floor Selection and Profile Page
+<div align="center">
+  <table style="border: 0">
+    <tr>
+      <td align="center">
+        <img src="images/Picture4.png" alt="Floor Selection" width="300" />
+        <br />
+        <strong>Floor Selection</strong>
+      </td>
+      <td align="center">
+        <img src="images/Picture5.png" alt="Profile Page" width="300" />
+        <br />
+        <strong>Profile Page</strong>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### Room Details
-![Room Details](images/room_details.png)
+<div align="center">
+  <img src="images/Picture6.png" alt="Room Details" width="300" />
+  <br />
+  <strong>Room Details</strong>
+</div>
 
 ## How It Works
 1. **For Students**:
@@ -70,4 +101,4 @@ Our goal is to develop a user-friendly application that enables professors to ef
 
 ---
 
-**Note**: This project is part of the Lectures Housing initiative at Benha University, aimed at improving classroom management and attendance tracking using modern technology.
+**Note**: This project is part of the College Lecture Housing initiative at Benha University, aimed at improving classroom management and attendance tracking using modern technology.
