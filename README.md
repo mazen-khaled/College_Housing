@@ -1,7 +1,7 @@
 # Lectures Housing - QR Code Attendance System
 
 <div align="center">
-  <img src="images/Picture1.png" alt="Logo" width="100" />
+  <img src="images/logo.png" alt="Logo" width="100" />
 </div>
 
 ## Overview
@@ -41,7 +41,7 @@ Our goal is to develop a user-friendly application that enables professors to ef
         <strong>Login Page</strong>
       </td>
       <td align="center">
-        <img src="images/Picture3.png" alt="Signup Page" width="300" />
+        <img src="images/Picture1.png" alt="Signup Page" width="300" />
         <br />
         <strong>Signup Page</strong>
       </td>
@@ -54,12 +54,12 @@ Our goal is to develop a user-friendly application that enables professors to ef
   <table style="border: 0">
     <tr>
       <td align="center">
-        <img src="images/Picture4.png" alt="Floor Selection" width="300" />
+        <img src="images/Picture3.png" alt="Floor Selection" width="300" />
         <br />
         <strong>Floor Selection</strong>
       </td>
       <td align="center">
-        <img src="images/Picture5.png" alt="Profile Page" width="300" />
+        <img src="images/Picture4.png" alt="Profile Page" width="300" />
         <br />
         <strong>Profile Page</strong>
       </td>
@@ -69,9 +69,20 @@ Our goal is to develop a user-friendly application that enables professors to ef
 
 ### Room Details
 <div align="center">
-  <img src="images/Picture6.png" alt="Room Details" width="300" />
-  <br />
-  <strong>Room Details</strong>
+  <table style="border: 0">
+    <tr>
+      <td align="center">
+        <img src="images/Picture6.png" alt="Login Page" width="300" />
+        <br />
+        <strong>Room Details</strong>
+      </td>
+      <td align="center">
+        <img src="images/Picture5.png" alt="Signup Page" width="300" />
+        <br />
+        <strong>Attendance QR Code</strong>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ## How It Works
@@ -101,4 +112,4 @@ Our goal is to develop a user-friendly application that enables professors to ef
 
 ---
 
-**Note**: This project is part of the College Lecture Housing initiative at Benha University, aimed at improving classroom management and attendance tracking using modern technology.
+**Note**: This project is part of the Lectures Housing initiative at Benha University, aimed at improving classroom management and attendance tracking using modern technology.
