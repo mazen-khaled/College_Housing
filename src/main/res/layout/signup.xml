@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0E0E20"
+    tools:context=".SignupActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#191838"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="#191838">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textSize="36dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#ffff">
+                
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/signup_email"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:hint="E-mail"
+                android:drawableLeft="@drawable/picture4"
+                android:drawablePadding="8dp"
+                android:textSize="20dp"
+                android:background="#1D1C40"
+                android:textColor="#ffff"
+                android:textColorHint="#7F7F7F"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="50dp"
+                android:id="@+id/signup_password"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/picture5"
+                android:background="#1D1C40"
+                android:drawablePadding="8dp"
+                android:textColor="#ffff"
+                android:textColorHint="#7F7F7F"/>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:background="#191838">
+
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -1"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject2"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -2"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:background="#191838">
+
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -3"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject4"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -4"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:background="#191838">
+
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject5"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -5"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject6"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -6"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:background="#191838">
+
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject7"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -7"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+                <EditText
+                    android:layout_width="140dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/subject8"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:hint="Sub -8"
+                    android:drawableLeft="@drawable/picture2"
+                    android:background="#1D1C40"
+                    android:drawablePadding="15dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="#7F7F7F"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="SIGN UP"
+                android:id="@+id/signup_button"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#00B050"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginRedirectText"
+                android:text="Already an user? Login"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#7F7F7F"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

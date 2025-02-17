@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#0E0E20"
+    tools:context=".LoginActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:srcCompat="@drawable/picture1"
+            android:layout_width="90dp"
+            android:layout_height="70dp">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:padding="7dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arizonia"
+                android:gravity="left"
+                android:text="هندسة شبرا"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:text="Benha Universty"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/profile_but"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/baseline_account_box_24"
+            android:background="#1D1C40" />
+
+        <ImageButton
+            android:id="@+id/logout_but"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/baseline_logout_24"
+            android:background="#1D1C40" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fourth"
+            android:textColor="#ffff"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Floor Rooms"
+            android:textColor="#BFBFBF"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:columnOrderPreserved="false"
+                android:layout_marginLeft="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:rowCount="2"
+                android:columnCount="5">
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr401"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+
+                    <ImageView
+                        android:id="@+id/gen401"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP401"
+                        />
+
+                    <EditText
+                        android:id="@+id/room401"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr402"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+
+                    <ImageView
+                        android:id="@+id/gen402"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP402"
+                        />
+
+                    <EditText
+                        android:id="@+id/room402"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr403"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+
+                    <ImageView
+                        android:id="@+id/gen403"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP403"
+                        />
+
+                    <EditText
+                        android:id="@+id/room403"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr404"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+
+                    <ImageView
+                        android:id="@+id/gen404"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP404"
+                        />
+
+                    <EditText
+                        android:id="@+id/room404"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr405"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+
+                    <ImageView
+                        android:id="@+id/gen405"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP405"
+                        />
+                    <EditText
+                        android:id="@+id/room405"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr406"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+                    <ImageView
+                        android:id="@+id/gen406"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP406"
+                        />
+                    <EditText
+                        android:id="@+id/room406"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr407"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+                    <ImageView
+                        android:id="@+id/gen407"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP407"
+                        />
+                    <EditText
+                        android:id="@+id/room407"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr408"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+                    <ImageView
+                        android:id="@+id/gen408"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP408"
+                        />
+                    <EditText
+                        android:id="@+id/room408"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:background="#191838"
+                        android:textSize="18dp"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr409"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+                    <ImageView
+                        android:id="@+id/gen409"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP409"
+                        />
+                    <EditText
+                        android:id="@+id/room409"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="@drawable/card_view">
+
+                    <ImageView
+                        android:id="@+id/qr410"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="right"
+                        android:clickable="true"
+                        android:src="@drawable/baseline_qr_code_scanner_24"
+                        app:tint="#7F7F7F" />
+                    <ImageView
+                        android:id="@+id/gen410"
+                        android:layout_gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/room"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:text="NP410"
+                        />
+                    <EditText
+                        android:id="@+id/room410"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:background="#191838"
+                        android:hint="Subject Name"
+                        android:textColorHint="#7F7F7F"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+            </GridLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>
